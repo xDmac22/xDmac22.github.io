@@ -1,0 +1,493 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  background-color:rgb(250, 225, 255) ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+
+.navigation .nav-left{
+ margin-left: 50px;
+}
+
+.navigation .nav-right{
+  margin: auto;
+  text-align: right;
+}
+
+.navigation .nav-right a{
+  margin: auto;
+  display: inline;
+}
+
+nav a img {
+  height: 70px;
+  width: 70px;
+}
+
+.header {
+  background-image: url('../img/bread-header.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.header .header-tagline {
+  font-family: 'Kaushan Script', cursive;
+  color:rgb(252, 239, 255);
+  padding-left: 20px;
+  padding-top: 270px;
+}
+
+.header .header-tagline h1 {
+  font-size: 70px;
+}
+
+.header .header-tagline p{
+  font-size: 40px;
+}
+
+/** Dessert Section**/
+
+.dessert {
+  background-color:rgb(252, 239, 255);
+}
+
+.second-header {
+  font-family: 'Crimson Text', serif;
+  font-size: 85px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.dessert .card-title {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+
+/** About Section**/
+
+.about {
+  background-color:rgb(252, 252, 217);
+  height:500px;
+  padding-top: 50px;
+}
+.about img {
+  height: 300px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 15px;
+}
+
+.about .about-desc {
+  text-align: left;
+  margin: auto;
+  line-height: 2em;
+}
+
+.about .about-desc h2 {
+  font-family:'Crimson Text', serif;
+  font-size: 50px;
+}
+
+.our-story button, .our-diff button {
+  background-color: rgb(250, 114, 227);
+  color: azure;
+  font-family:'Crimson Text', serif;
+  font-size:20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: rgb(250, 114, 227);
+  border-style: double;
+
+}
+.our-story, .our-diff {
+  display: inline;
+}
+
+.our-diff {
+  padding-left: 25px;
+}
+
+/** About Second Section**/
+.main-bg {
+  position: relative;
+}
+
+.bg-image {
+  width: 100%;
+  background-image: url('../img/pie.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  filter:blur(3px);
+
+}
+
+#about-second {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  top: 10%;
+}
+
+.main-bg p {
+  color: rgb(253, 246, 255);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: xx-large;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-style: italic;
+}
+
+/** Footer **/
+
+footer {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 100%;
+  background-color: rgb(255, 135, 235);
+  text-align: center;
+}
+
+footer .col-md-4 {
+  margin-top: 30px;
+}
+
+footer .col-md-4 ul li {
+  text-align: center;
+  list-style-type: none;
+  line-height: 3em;
+}
+
+footer .copyright {
+  background-color: rgb(255, 91, 228);
+  font-style: bold;
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+}
+
+footer.footer-order {
+  margin-top: 30px;
+}
+
+/* Order Page ----------------------------------------------------------------------*/
+header#menu {
+  text-align: center;
+  padding: 20px;
+
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+
+header#menu h1 {
+  font-family:'Kaushan Script', cursive;
+  font-size: 70px;
+}
+
+header#menu h5 {
+  font-family:'Crimson Text', serif;
+  font-size: 30px;
+}
+
+nav.nav-order{
+  margin-bottom: 30px;
+}
+
+body#orderhtml{
+  background-color:  rgb(255, 221, 249);
+  font-family:'Crimson Text', serif;
+}
+
+body section.order {
+  font-size: 20px;
+}
+
+section .row .card-top {
+  font-size: 24px;
+}
+
+section .row #basket h4 {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+section.container a{
+  text-decoration: none;
+}
+
+
+#breadcrumb li {
+  display: inline;
+  font-size: 24px;
+
+}
+
+#breadcrumb li a {
+  color: rgb(112, 0, 103);
+}
+
+#breadcrumb li:last-child {
+  margin-left: 30px;
+}
+
+
+#product-list #product-card {
+  width: 300px;
+  height: 220px;
+  padding: 0;
+  margin: 15px;
+  display: inline-block;
+}
+
+#product-list #product-card .product-image {
+  height: 100%;
+  width: 100%;
+}
+
+#product-card .card-body a {
+  margin-left: 4.3rem;
+}
+
+#product-price {
+  display: inline;
+}
+
+.container .row #basket {
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+#basket #total, #peso-sign {
+  float: right;
+}
+
+#basket .card .card-body button.purchase-btn {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#basket .card .card-body button.purchase-btn:hover {
+  background-color:rgb(255, 144, 235);
+  color: azure;
+}
+
+.modal-content img {
+  display: block;
+  margin: 0 auto;  
+}
+
+.modal-content h3 {
+  text-align: center;
+}
+
+.modal-content .after-purchase {
+  margin: 20px;
+}
+
+nav .row {
+  animation: slideInDown;
+  animation-duration: 1s;
+}
+
+/* Contact Page *************************************************************/
+
+#contact-body {
+  font-family: 'Crimson Text', serif;
+  background-color: rgb(255, 221, 249)
+}
+
+#contact-us {
+  margin-bottom: 50px;
+}
+
+section.contact-content .contact-form .contact-left-side {
+  padding-left: 50px;
+}
+
+section.contact-content .contact-form .contact-left-side #f-btn {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+section.contact-content .contact-form .contact-right-side {
+  text-align: center;
+
+}
+
+.contact-h2 {
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(255, 134, 233);
+  text-decoration: underline;
+}
+
+#contact-icon {
+  margin: 50px;
+  text-align: center;
+}
+
+#contact-icon span {
+  margin: 0 20px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#f-message {
+  height: 100px
+}
+
+
+/* Media Queries =======================================*/
+
+@media(max-width: 1241px) {
+
+  /* Index Page =======================================*/
+  .about img {
+    display: none;
+  }
+
+  .about {
+    position: relative;
+  }
+
+  .about .about-desc {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px;
+    width: 800px;
+    text-align: center;
+  }
+}
+
+@media(max-width: 991px) {
+
+  .header header p {
+    display: none;
+  }
+
+  nav {
+    height: 60px;
+    text-align: center;
+    position: relative;
+  }
+  nav .logo {
+    display: none;
+  }
+
+  nav .nav-right {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    padding-top: 13px;
+  }
+
+  .header header h1, p{
+    font-size: 20px;
+  }
+
+}
+
+
+@media(max-width: 768px) {
+
+  .header {
+    padding: 0;
+    height: 300px;
+  }
+
+  .header .header-tagline {
+    padding-left: 20px;
+    padding-top: 200px;
+  }
+
+  .header header p {
+    display: none;
+  }
+  
+  .about {
+    width: 100%;
+  }
+
+  .about {
+    position: relative;
+  }
+
+  .about .about-desc {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+  }
+
+  footer img {
+    display: none;
+  }
+
+  footer .col-md-4 ul li {
+    line-height: 2em;
+  }
+
+  footer .col-md-4 {
+    margin-top: 0px;
+  }
+
+  .contact-right-side {
+    display: none;
+  }
+
+  .contact-left-side {
+    padding-right: 50px;
+  }
+
+}
+
+@media(max-width: 576px) {
+
+  .header #dc-bakeshop {
+    font-size: 50px;
+    padding-top: 35px;
+  }
+
+  .about {
+    position: relative;
+  }
+  
+  .about .about-desc {
+
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+  }
+}
+

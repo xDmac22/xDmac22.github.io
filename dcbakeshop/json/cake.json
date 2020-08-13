@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Berry Cake",
+    "price": "400",
+    "image": "img/cake/berrycake.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Carrot Cake",
+    "price": "300",
+    "image": "img/cake/carrotcake.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Cake",
+    "price": "290",
+    "image": "img/cake/chocolatecake.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Creamcheese Cake",
+    "price": "350",
+    "image": "img/cake/creamcheesecake.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fruit Cake",
+    "price": "500",
+    "image": "img/cake/fruitcake.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Peach Mocha Cake",
+    "price": "420",
+    "image": "img/cake/peachmochacake.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Strawberry Cake",
+    "price": "390",
+    "image": "img/cake/strawberrycake.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ube Cake",
+    "price": "450",
+    "image": "img/cake/ubecake.jpg"
+  }
+
+]

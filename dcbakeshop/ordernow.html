@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DC BakeShop Order</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+  <!-- Icons-->
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css">
+
+  <!--Animate CSS-->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- External Main-->
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body id="orderhtml" style="overflow-x: hidden;">
+  <nav class="navigation">
+    <div class="row">
+      <div class="nav-left">
+        <a class="col-md-2 nav-link active" href="#!"><img class="logo" src="img/logo.png"></a>
+      </div>
+      <div class="col-md-10 nav-right">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="ordernow.html">Order Now!</a>
+        <a class="nav-link disabled" href="#!">About Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <header id="menu">
+    <h1>Menu</h1>
+    <h5>An oasis for pleasure.</h2>
+  </header>
+  <section class="container order">
+    <div id="breadcrumb">
+      <ol>
+        <li><a href="#" id="cakes">Cakes</a></li>
+        <li><a href="#" id="candm">Cookies & Macaroons</a></li>
+      </ol>
+    </div>
+    <div class="row">
+      <div id="product-list" class="col-md-8">
+      </div>
+      <div id="basket" class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title basket-anim">Basket</h4><span>Total Price (&#8369)</span><span id="total"></span>
+            <hr>
+            <table>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+              <tbody id="basket-list"></tbody>
+            </table>
+            <button class="purchase-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Purchase</button>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+              aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="after-purchase">
+                    <img src="img/logo.png">
+                    <h3>Thank you for purchasing DC BakeShop Products.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-order">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/logo.png">
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Order Online</li>
+            <li>Rewards</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>FAQ</li>
+            <li>Legal</li>
+            <li>Gift Cards</li>
+            <li>Term and Condition</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright container-fluid">Copyright &copy;DC BakeShop 2020</div>
+  </footer>
+  
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- External JS-->
+  <script src="js/product.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</html>

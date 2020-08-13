@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Banana Chocolate Cookie",
+    "price": "50",
+    "image": "img/cookies/bananachocolate.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Butter Cookies",
+    "price": "60",
+    "image": "img/cookies/buttercookies.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Chip Cookie",
+    "price": "45",
+    "image": "img/cookies/chocolatechip.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Peanutbutter Cookie",
+    "price": "55",
+    "image": "img/cookies/corletopeanutbutter.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Eve Lina Cookie",
+    "price": "70",
+    "image": "img/cookies/evelina.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Straberry Filled Cookie",
+    "price": "65",
+    "image": "img/cookies/strawberryfilled.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ube Macaroon",
+    "price": "70",
+    "image": "img/cookies/ubermacaroon.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Macaroon",
+    "price": "55",
+    "image": "img/cookies/vanillamacaroon.jpg"
+  }
+
+]

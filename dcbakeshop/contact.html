@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DC BakeShop Order</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+  <!-- Icons-->
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css">
+
+  <!--Animate CSS-->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- External Main-->
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body id="contact-body" style="overflow-x: hidden;">
+  <nav class="navigation">
+    <div class="row">
+      <div class="nav-left">
+        <a class="col-md-2 nav-link active" href="#!"><img class="logo" src="img/logo.png"></a>
+      </div>
+      <div class="col-md-10 nav-right">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="ordernow.html">Order Now!</a>
+        <a class="nav-link disabled" href="#!">About Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <header id="menu">
+    <h1 id="contact-us">Contact Us</h1>
+  </header>
+  <section class="contact-content">
+    <div class="row contact-form">
+      <div class="col-md-6 contact-left-side">
+        <form class="contact-form">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>First Name</label>
+                <input id="f-fname" type="text" class="form-control" placeholder="First name">
+                <div class="invalid-feedback">Must be 2 to 15 non-numeric characters</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Last Name</label>
+                <input id="f-lname" type="text" class="form-control" placeholder="Last name">
+                <div class="invalid-feedback">Must be 2 to 10 non-numeric characters</div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input id="f-email" type="text" class="form-control" placeholder="Email">
+            <div class="invalid-feedback">Please input valid email</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label >Phone Number</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button class="btn btn-info" type="button">+63</button>
+                </div>
+                <input id="f-pnumber" type="text" class="form-control" placeholder="Phone Number">
+                <div class="invalid-feedback">Please input valid phone number</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label >Zip Code</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button class="btn btn-info" type="button">+0</button>
+                </div>
+                <input id="f-zip" type="text" class="form-control" placeholder="Zip Code">
+                <div class="invalid-feedback">Must not exceed 4 digit</div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="f-message" class="form-control"></textarea>
+            <div class="invalid-feedback">Enter between 5 - 2000 characters</div>
+          </div>
+          <input id="f-btn" type="submit" value="Submit" class="btn btn-primary">
+        </form>
+        <div>
+          <p class="contact-h2">TELL DC BakeShop</p>
+          <p>Have feedback about our products or service?</p>
+          <p>Please contact DC BakeShop directly at:</p>
+          <p class="contact-h2">DCBAKESHOP@dcbakeshop.com</p>
+        </div>
+        <div>
+          <p>For a list of positions and to apply online please visit:</p>
+          <p class="contact-h2">DCBAKESHOP@dcbakeshop.com/careers</p>
+        </div>
+        <div id="contact-icon">
+          <span><i class="fab fa-facebook"></i></span>
+          <span><i class="fab fa-twitter"></i></span>
+          <span><i class="fab fa-instagram-square"></i></span>
+          <span><i class="fab fa-pinterest-square"></i></span>
+        </div>
+      </div>
+      <div class="col-md-6 contact-right-side">
+        <img src="img/bakery.jpg">
+      </div>
+    </div>
+  </section>
+  <footer class="footer-order">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/logo.png">
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Order Online</li>
+            <li>Rewards</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>FAQ</li>
+            <li>Legal</li>
+            <li>Gift Cards</li>
+            <li>Term and Condition</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright container-fluid">Copyright &copy;DC BakeShop 2020</div>
+  </footer>
+  
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- External JS-->
+  <script src="js/validation.js"></script>
+</html>
