@@ -1,12 +1,12 @@
 header {
-  background-image: url('../img/background-blue.jpg');
+  background-image: url('https://xDmac22.github.io/portfolio/img/background-blue.jpg');
   height: 100vh;
   background-size: cover;
   position: relative;
   font-family: 'Montserrat', sans-serif;
 }
 nav {
-  background-image: url('../img/background-blue.jpg');
+  background-image: url('https://xDmac22.github.io/portfolio/img/background-blue.jpg');
   font-family: 'Montserrat', sans-serif;
   font-size: large;
   font-weight: bolder;
