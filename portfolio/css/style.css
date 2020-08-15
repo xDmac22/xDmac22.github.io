@@ -1,0 +1,347 @@
+header {
+  background-image: url('/img/background-blue.jpg');
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+nav {
+  background-image: url('/img/background-blue.jpg');
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+nav li {
+  margin-left: 50px;
+}
+
+nav li a {
+  position: relative;
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: rgb(104, 104, 104);
+}
+
+nav li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:rgb(104, 104, 104);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav li a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+header img {
+  border-radius: 50%;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.ava-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ava-card h1, h2{
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.ava-card .ava-icon {
+  margin: 15px;
+}
+
+.ava-card .btn {
+  margin: 20px auto;
+}
+
+.ava-card .ava-icon span{
+  margin: auto 20px;
+}
+
+.ava-card .ava-icon a{
+  color: inherit;
+}
+
+.ava-card .ava-icon span:hover{
+  animation: zoomIn;
+  animation-duration: 3s;
+}
+
+
+/******************************************** ABOUT ********************************************/
+.about {
+  font-family: 'Lato', sans-serif;
+}
+
+.about h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 3px rgb(62, 255, 229);
+}
+
+.about .row .col-md-6 p{
+  margin: auto;
+  line-height: 3rem;
+  font-size: 16px;
+}
+
+.about .row .col-md-6 span{
+  color: rgb(0, 124, 108);
+  font-weight: 700;
+}
+
+.about .row .col-md-6 h5 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about p {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about .about-vi {
+  display: flex;
+  justify-content: center;
+}
+
+.about img {
+  width: 400px;
+  height: 400px;
+}
+
+.about .about-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.about .col-md-6 .media {
+  margin: 30px auto 30px 40px;
+}
+
+/******************************************** SKILLS ********************************************/
+
+.skills {
+  margin: 100px auto;
+}
+
+.skills h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(62, 255, 229);
+}
+
+.skills .col-md-4 {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.skills img {
+  width: 100px;
+  height: 100px;
+}
+
+/******************************************** PROJECTS ********************************************/
+
+.projects {
+  margin: 150px auto;
+}
+
+.projects h2 {
+  text-align: center;
+  margin: 90px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(62, 255, 229);
+}
+
+.projects .col-md-4 .card {
+  margin: auto;
+  box-shadow: 0 1px 1px rgba(0, 0, 0,0.08), 
+            0 4px 4px rgba(0, 0, 0,0.12), 
+            0 16px 16px rgba(0, 0, 0,0.16), 
+            0 32px 32px rgba(0, 0, 0,0.20);
+
+}
+
+.projects .col-md-4 .card:hover {
+  box-shadow: 0 1px 1px rgba(68, 204, 186, 0.08), 
+            0 4px 4px rgba(68, 204, 186,0.12), 
+            0 16px 16px rgba(68, 204, 186, 0.16), 
+            0 32px 32px rgba(68, 204, 186,0.20);
+
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.card-text a {
+  color: inherit;
+}
+
+.card-text a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.projects .col-md-4 .card-body {
+  padding-bottom: 0px;
+}
+
+
+.projects .col-md-4 a{
+  margin: auto; 
+}
+
+.projects .modal-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.modal-title {
+  text-align: center;
+  color: rgb(0, 124, 108);
+}
+
+.modal-poke {
+  background-image: url('/img/pokefinder-ss.PNG');
+  background-size: cover;
+  height: 60vh;
+}
+
+.modal-dc {
+  background-image: url('/img/dcbakeshop-ss.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.modal-abc {
+  background-image: url('/img/abcjob-ss.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.modal-desc img {
+  height: 40px;
+  width: 40px;
+}
+
+.modal-desc {
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.modal-desc span {
+  color: rgb(0, 104, 90);
+  font-weight: bold;
+}
+
+.modal-desc .built {
+  font-weight: bolder;
+}
+
+.modal-desc .built i {
+  float: right;
+  font-size: 40px;
+  margin-left: 15px;
+  color: rgb(61, 61, 61);
+}
+
+.modal-desc .built i:hover {
+  color: rgb(0, 104, 90);
+}
+
+/******************************************** Contacts********************************************/
+.contacts {
+  font-family: 'Lato', sans-serif;
+  margin: 100px auto;
+}
+
+.contacts h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(62, 255, 229);
+}
+
+.contacts-info {
+  margin-top: 60px;
+}
+
+.contacts .contacts-vi {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts img {
+  height: 400px;
+  width: 400px;
+}
+
+.contacts-info p {
+  text-align: center;
+}
+
+.contacts span {
+  color: rgb(0, 158, 137);
+}
+
+.contact-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0.8rem;
+}
+
+.contact-email, .contact-fb, .contact-linkedin, .contact-mobile {
+  line-height: 0.8rem;
+  margin-bottom: 30px;
+}
+
+/******************************************** Footer ********************************************/
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('/img/background-blue.jpg');
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
