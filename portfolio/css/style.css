@@ -235,20 +235,20 @@ img {
 }
 
 .modal-poke {
-  background-image: url('img/pokefinder-ss.PNG');
+  background-image: url('https://xDmac22.github.io/portfolio/img/pokefinder-ss.PNG');
   background-size: cover;
   height: 60vh;
 }
 
 .modal-dc {
-  background-image: url('img/dcbakeshop-ss.PNG');
+  background-image: url('https://xDmac22.github.io/portfolio/img/dcbakeshop-ss.PNG');
   background-size: contain;
   background-repeat: no-repeat;
   height: 60vh;
 }
 
 .modal-abc {
-  background-image: url('img/abcjob-ss.PNG');
+  background-image: url('https://xDmac22.github.io/portfolio/img/abcjob-ss.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
