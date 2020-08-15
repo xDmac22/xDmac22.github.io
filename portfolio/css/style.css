@@ -1,12 +1,12 @@
 header {
-  background-image: url('/img/background-blue.jpg');
+  background-image: url('img/background-blue.jpg');
   height: 100vh;
   background-size: cover;
   position: relative;
   font-family: 'Montserrat', sans-serif;
 }
 nav {
-  background-image: url('/img/background-blue.jpg');
+  background-image: url('img/background-blue.jpg');
   font-family: 'Montserrat', sans-serif;
   font-size: large;
   font-weight: bolder;
@@ -235,20 +235,20 @@ img {
 }
 
 .modal-poke {
-  background-image: url('/img/pokefinder-ss.PNG');
+  background-image: url('img/pokefinder-ss.PNG');
   background-size: cover;
   height: 60vh;
 }
 
 .modal-dc {
-  background-image: url('/img/dcbakeshop-ss.PNG');
+  background-image: url('img/dcbakeshop-ss.PNG');
   background-size: contain;
   background-repeat: no-repeat;
   height: 60vh;
 }
 
 .modal-abc {
-  background-image: url('/img/abcjob-ss.PNG');
+  background-image: url('img/abcjob-ss.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
@@ -337,7 +337,7 @@ footer {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-image: url('/img/background-blue.jpg');
+  background-image: url('img/background-blue.jpg');
 }
 
 footer p {
