@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<constant name="struts.ui.theme" value="simple" />
+	<package name="capstone" extends="struts-default">
+		<action name="login" class="com.capstone.controller.LogInAction">
+			<result name="success" type="redirect">/views/home.jsp</result>
+			<result name="error">/views/login.jsp</result>
+		</action>
+		
+		<action name="logInUser" class="com.capstone.controller.LogInAction" method="logInUser">
+			<result name="success">/views/login.jsp</result>
+		</action>
+		
+		<action name="logInAdmin" class="com.capstone.controller.AdminLogInAction" method="logInAdmin">
+			<result name="success">/views/admin-log.jsp</result>
+		</action>
+		
+		<action name="logout" class="com.capstone.controller.LogOutAction" >
+			<result name="success" type="redirect">/</result>
+		</action>
+		
+		<action name="register" class="com.capstone.controller.RegisterAction">
+			<result name="success">/views/register.jsp</result>
+			<result name="error">/views/register.jsp</result>
+		</action>
+		
+		<action name="registrationForm" class="com.capstone.controller.RegisterAction" method="registrationForm">
+			<result name="success">/views/register.jsp</result>
+		</action>
+		
+		<action name="viewProfile" class="com.capstone.controller.UpdateProfileAction" method="viewProfile">
+			<result name="success">/views/profile.jsp</result>
+		</action>
+		
+		<action name="updateProfile" class="com.capstone.controller.UpdateProfileAction" method="updateProfile">
+			<result name="success">/views/update-profile.jsp</result>
+		</action>
+		
+		<action name="updateProf" class="com.capstone.controller.UpdateProfileAction">
+			<result name="success">/views/update-profile.jsp</result>
+			<result name="error">/views/update-profile.jsp</result>
+		</action>
+		
+		<action name="admin-log" class="com.capstone.controller.AdminLogInAction">
+			<result name="success">/views/administer.jsp</result>
+			<result name="error">/views/admin-log.jsp</result>
+		</action>
+		
+		<action name="administer" class="com.capstone.controller.AdminManageAction">
+			<result name="success">/views/admin-manage.jsp</result>
+		</action>
+		
+		<action name="updateUserData" class="com.capstone.controller.UpdateUser">
+			<result name="success">/views/update-user-data.jsp</result>
+			<result name="input">/views/update-user-data.jsp</result>
+		</action>
+		
+		<action name="deleteUser" class="com.capstone.controller.DeleteUserAction">
+			<result name="success">/views/admin-manage.jsp</result>
+		</action>
+		
+		<action name="sendemail" class="com.capstone.controller.SendEmailAction">
+			<result name="success">/views/send-email.jsp</result>
+			<result name="input">/views/send-email.jsp</result>
+			<result name="error">/views/send-email.jsp</result>
+		</action>
+		
+		<action name="retrieve" class="com.capstone.controller.RetrievePasswordAction" method="retrieve">
+			<result name="success">/views/retrieve-password.jsp</result>
+		</action>
+		
+		<action name="sendPassword" class="com.capstone.controller.RetrievePasswordAction">
+			<result name="success">/views/retrieve-password.jsp</result>
+			<result name="error">/views/retrieve-password.jsp</result>
+		</action>
+		
+		<action name="searchUser" class="com.capstone.controller.SearchUserAction" method="searchUser">
+			<result name="success">/views/search-user.jsp</result>
+		</action>
+		
+		<action name="search" class="com.capstone.controller.SearchUserAction">
+			<result name="success">/views/search-result.jsp</result>
+			<result name="error">/views/search-result.jsp</result>
+		</action>
+		
+		<action name="adminhome" class="com.capstone.controller.AdminManageAction" method="adminhome">
+			<result name="success">/views/administer.jsp</result>
+		</action>
+		
+		<action name="sendmessage" class="com.capstone.controller.SendMessageAction">
+			<result name="input">/views/send-message.jsp</result>
+			<result name="success">/views/send-message.jsp</result>
+		</action>
+		
+		<action name="viewInbox" class="com.capstone.controller.SendMessageAction" method="viewInbox">
+			<result name="success">/views/inbox.jsp</result>
+		</action>
+		
+		<action name="viewMessages" class="com.capstone.controller.SendMessageAction" method="viewMessages">
+			<result name="success">/views/read-message.jsp</result>
+		</action>
+		
+		<action name="viewThreads" class="com.capstone.controller.ThreadAction">
+			<result name="success">/views/threads.jsp</result>
+		</action>
+		
+		<action name="focusThread" class="com.capstone.controller.ThreadAction" method="focusThread">
+			<result name="success">/views/threads-reply.jsp</result>
+		</action>
+		
+		<action name="replyThread" class="com.capstone.controller.ThreadAction" method="replyThread">
+			<result name="input">/views/threads-reply.jsp</result>
+		</action>
+		
+		<action name="showJobs" class="com.capstone.controller.JobsAction">
+			<result name="success">/views/jobs.jsp</result>
+		</action>
+		
+		<action name="showMyJobPost" class="com.capstone.controller.JobsAction" method="showMyJobPost">
+			<result name="success">/views/job-posts.jsp</result>
+		</action>
+		
+		<action name="showApplicants" class="com.capstone.controller.JobsAction" method="showApplicants">
+			<result name="success">/views/job-respond.jsp</result>
+		</action>
+		
+		<action name="applyJob" class="com.capstone.controller.JobsAction" method="applyJob">
+			<result name="success">/views/jobs.jsp</result>
+		</action>
+		
+		<action name="postnewjob" class="com.capstone.controller.JobsAction" method="postNewJob">
+			<result name="success">/views/job-newpost.jsp</result>
+		</action>
+		
+		<action name="postNewJobForm" class="com.capstone.controller.JobsAction" method="postNewJobForm"> 
+			<result name="success">/views/job-newpost.jsp</result>
+		</action>
+		
+		<action name="postThreadForm" class="com.capstone.controller.ThreadAction" method="postThreadForm">
+			<result name="success">/views/thread-newpost.jsp</result>
+		</action>
+		
+		<action name="postNewThread" class="com.capstone.controller.ThreadAction" method="postNewThread">
+			<result name="success">/views/thread-newpost.jsp</result>
+		</action>
+	</package>	
+</struts>

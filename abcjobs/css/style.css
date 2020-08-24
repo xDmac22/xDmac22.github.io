@@ -1,0 +1,207 @@
+@charset "ISO-8859-1";
+
+.footer {
+	text-align: center;
+  background-color:#131313;
+  color: white;
+  border-radius: 3px;
+}
+
+.footer p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.row .card-body .card-text {
+    padding-bottom: 10px;
+}
+
+#carousel {
+	margin-bottom: 15px;
+}
+
+.container .update {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.container .table {
+	width: 70%;
+}
+
+.container .info {
+	margin:auto;
+	text-align:center;
+	border-style: groove;
+	width: 70%;
+	border-radius: 5px;
+}
+
+.container .info span {
+	font-size: 25px;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.container .table td {
+	text-align: center;
+}
+
+.container .table th {
+	text-align: center;
+}
+
+.container .table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	border: 1px solid #ddd;
+}
+
+.table tr:hover {
+	background-color: #ddd;
+}
+
+.container .update {
+	width: 70%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.container .updateprofileform {
+    padding-bottom: 15px;
+}
+
+/** Update Profile ------------------------------------------------------------------------------------- **/
+
+.container .updateprofileform {
+	width: 70%;
+	margin: auto;
+}
+
+.container form {
+	padding: 10px;
+}
+
+.container .updatebutton {
+	width: 100%;
+}
+
+.container .message {
+	text-align: center;
+	padding: 10 px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+/** Log In Page ------------------------------------------------------------------------------------- **/
+
+.container .loginuser {
+	width: 100%;
+}
+
+.container .row .login {
+	margin-bottom: 15px;
+}
+
+.container .forgot {
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.row h4 {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/** ForgotPassword Page ------------------------------------------------------------------------------------- **/
+
+.container .row img {
+    margin-bottom: 15px;
+}
+
+/** Admin manage ------------------------------------------------------------------------------------- **/
+
+.container #managertable table {
+    width: 100%;
+    margin:auto;
+}
+
+.container .deletemessage span {
+  text-align: center;
+	padding: 10 px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left:360px;
+}
+
+.container .searchtable {
+	width: 100%;
+	margin-top: 15px;
+}
+
+/** Inbox ------------------------------------------------------------------------------------- **/
+
+.ellipsis {
+    position: relative;
+}
+.ellipsis:before {
+    content: '&nbsp;';
+    visibility: hidden;
+}
+.ellipsis span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container form .replybutton {
+	text-align: center;
+	width: 100%;
+}
+
+/** Threads ------------------------------------------------------------------------------------- **/
+
+.container .list-group h5 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.container .list-group .badge-dark {
+	margin-right: 20px;
+}
+
+.container .list-group a {
+	width: 100%;
+	text-align: center;
+}
+
+/** Jobs ------------------------------------------------------------------------------------- **/
+
+.container .jobs {
+	width: 100%;
+	
+}
+
+.container .jobs .accordion .insidejob span {
+	font-weight: bold;
+	
+}
+
+.container .jobs #accordion {
+	position: relative;
+}
+
+.container .jobs #accordion .insidejob .applyform .btn-primary{
+	top: 3px;
+	right: 3px;
+	position: absolute;
+	width: 20%;
+}
+
